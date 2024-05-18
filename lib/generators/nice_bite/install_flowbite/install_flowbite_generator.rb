@@ -1,6 +1,6 @@
 module NiceBite
   module Generators
-    class InstallGenerator < Rails::Generators::Base
+    class InstallFlowbiteGenerator < Rails::Generators::Base
       desc "Installs Flowbite and configures Tailwind CSS to use Flowbite"
 
       source_root File.expand_path('templates', __dir__)
